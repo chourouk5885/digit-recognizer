@@ -1,0 +1,57 @@
+{
+  "test_accuracy": 0.9951,
+  "test_loss": 0.015166460056701908,
+  "test_errors": 49,
+  "test_size": 10000,
+  "best_val_accuracy": 0.9952,
+  "per_class_accuracy": {
+    "0": 0.9948979591836735,
+    "1": 0.9929515418502203,
+    "2": 0.9951550387596899,
+    "3": 0.999009900990099,
+    "4": 0.994908350305499,
+    "5": 0.9943946188340808,
+    "6": 0.9968684759916493,
+    "7": 0.995136186770428,
+    "8": 0.997946611909651,
+    "9": 0.9900891972249752
+  },
+  "most_confused": [
+    {
+      "true": 9,
+      "predicted": 4,
+      "count": 6
+    },
+    {
+      "true": 5,
+      "predicted": 3,
+      "count": 4
+    },
+    {
+      "true": 4,
+      "predicted": 9,
+      "count": 4
+    },
+    {
+      "true": 1,
+      "predicted": 7,
+      "count": 3
+    },
+    {
+      "true": 1,
+      "predicted": 3,
+      "count": 3
+    }
+  ],
+  "epochs": 8,
+  "batch_size": 128,
+  "lr": 0.003,
+  "weight_decay": 0.0001,
+  "device": "mps",
+  "num_workers": 0,
+  "seed": 42,
+  "data_dir": "/Users/faddouachourouk/Desktop/digit-recognizer/data",
+  "out": "/Users/faddouachourouk/Desktop/digit-recognizer/models/mnist_cnn.pt",
+  "eval_only": false,
+  "parameters": 468010
+}

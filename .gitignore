@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MNIST download (re-downloaded automatically by train.py)
+data/*
+!data/.gitkeep
+
+# Gradio temp files
+.gradio/
+flagged/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# NOTE: models/mnist_cnn.pt is NOT ignored on purpose (~2 MB) - committing it
+# lets anyone run app.py (or a Hugging Face Space) without training first.
