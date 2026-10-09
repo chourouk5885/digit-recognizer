@@ -1,7 +1,5 @@
 # Handwritten Digit Recognizer
 
-![tests](https://github.com/chourouk5885/digit-recognizer/actions/workflows/tests.yml/badge.svg)
-
 A convolutional neural network trained on MNIST, plus a web app where you **draw a digit and the
 model predicts it live** as you draw.
 
@@ -137,7 +135,7 @@ Press **Ctrl+C** in the terminal to stop the app.
 | `python train.py --eval-only` | skip training: re-evaluate the saved model and redraw the report |
 | `python app.py --share` | also creates a temporary public link you can send to someone |
 
-## Put the demo online (free)
+## Put the demo online
 
 Hugging Face Spaces can host the app permanently:
 
